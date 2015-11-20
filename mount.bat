@@ -9,8 +9,8 @@ REM Remove an eventually present trailing slash from the source_folder value.
 IF #%SOURCEFOLDER:~-1%# == #\# SET SOURCEFOLDER=%SOURCEFOLDER:~0,-1%
 
 REM Mount the drive.
-SUBST %DRIVELETTER%: %SOURCEFOLDER%
-REM ECHO %SOURCEFOLDER% mounted as %DRIVELETTER%:\
+SUBST %DRIVELETTER%: "%SOURCEFOLDER%"
+REM ECHO "%SOURCEFOLDER%" mounted as %DRIVELETTER%:\
 GOTO:eof
 
 :getvalue
