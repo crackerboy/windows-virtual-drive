@@ -15,5 +15,4 @@ When mounting `drive_letter` must be unused.
 # Sources
 
 - [Reading an ini config file from a batch file](http://almanachackers.com/blog/2009/12/31/reading-an-ini-config-file-from-a-batch-file/)
-- [Windows Virtual Drive on GitHub](https://github.com/geberl/windows_virtual_drive)
-- [eberl.se](http://www.eberl.se)
+- [Windows Virtual Drive on GitHub](https://github.com/geberl/windows-virtual-drive)
